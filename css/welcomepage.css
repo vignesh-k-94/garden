@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-color: rgba(1, 99, 66, 0.897);
+    height: 4rem;
+    width: auto;
+}
+
+img.logo {
+    height: 3rem;
+    margin: .2rem;
+    box-shadow: inset;
+}
+
+.bgimg {
+    background-image: url('/images/bg.jpg');
+    background-position:0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 45rem;
+    width: 100%;
+}
+
+.welcomemessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+img.logomain{
+    height: 20rem;
+    gap: 3rem;
+    padding: 2rem;
+
+}
+
+.welcomemessage {
+    text-align: center; 
+    margin: 3rem;
+    color: whitesmoke;
+}
+.welcomemessage span { 
+    background-color: rgba(1, 100, 75, 0.397); 
+}
+
+.bgfooter{
+    background-color: rgba(1, 99, 66, 0.897);
+    color: whitesmoke;
+      
+}
+
+.icon img{
+    height: 50px;
+    width: 50px;
+    
+    align-items: center;
+    justify-content: center;
+  
+    
+  }
+
+.adrs{
+    margin-left: 3rem;
+}

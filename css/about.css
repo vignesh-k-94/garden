@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.bg{
+    background-color: rgba(1, 99, 66, 0.897);
+    height: 4rem;
+    width: auto;
+}
+
+img.logo {
+    height: 3rem;
+    margin: .2rem;
+    box-shadow: inset;
+}
+.about{
+    background-image: url(/images/home-slider-image-1.jpg);
+    background-position:0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+   
+  }
+  .content{
+    font-size: larger;
+    font-weight: 500;
+    color: whitesmoke;
+    background-color: rgba(1, 100, 75, 0.397);
+    
+    background-position: center;
+  }
+
+  .bgfooter{
+    background-color: rgba(1, 99, 66, 0.897);
+    color: whitesmoke;
+    
+}
+
+.icon img{
+    height: 50px;
+    width: 50px; 
+    align-items: center;
+    justify-content: center;   
+  }
+
+.adrs{
+    margin-left: 3rem;
+}
+
+.aboutinfo{
+    margin-left: 3rem;
+}
+
+.scroll{
+    margin-top: 5rem;
+}
+
+.images img {
+    height: 20rem;
+    width: 20rem;
+    border: .5rem solid white;
+    border-radius: .5rem;
+    margin: 5rem;   
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
